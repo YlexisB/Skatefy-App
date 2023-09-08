@@ -33,8 +33,14 @@ const Hero = () => {
                 <h1>03</h1>
               </div>
             </div>
-            <img src="./images/hero-small/h-img.png" alt="mini-pic" />
-            <img src="./images/hero-small/h-video.mp4" alt="mini-vid" />
+            <img
+              src="./images/hero-home/hero-small/h-image.png"
+              alt="mini-pic"
+            />
+            <img
+              src="./images/hero-home/hero-small/h-video.mp4"
+              alt="mini-vid"
+            />
           </div>
         </div>
       </div>
