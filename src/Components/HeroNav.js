@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 const HeroNav = () => {
   return (
-    <div>
+    <div className="hero-image">
       <Navbar />
       <Hero />
     </div>

@@ -29,7 +29,7 @@ const Navbar = () => {
       className={isOpen && windowWidth <= 820 ? "open" : ""}
     >
       <div className="logo-box">
-        <h1 className=" white">
+        <h1 className="logo-text">
           sk<span className="orange">a</span>tefy
         </h1>
       </div>
@@ -86,10 +86,10 @@ const Navbar = () => {
         </div>
       )}
 
-      <div>
-        <button data="JOIN" className={isOpen ? "logo-open" : " join-button "}>
-          join
-        </button>
+      <div className="radius">
+        <div className={isOpen ? "logo-open" : " join-button "}>
+          {NAV_STUFF.join}
+        </div>
       </div>
     </div>
   );
