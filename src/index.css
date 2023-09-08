@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.orange {
+  color: #ef6c39;
+}
 /* Navbar *****************NAVBAR*/
 .menu-dropdown.none {
   display: none;
@@ -47,6 +50,8 @@ code {
   align-items: center;
   justify-content: space-between;
   margin-bottom: auto;
+  color: black;
+  justify-content: space-around;
 }
 
 #nav-container.open {
@@ -54,7 +59,7 @@ code {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.125);
 }
-.logo-stuff {
+.logo-box {
   display: flex;
   align-items: center;
 }
@@ -63,12 +68,13 @@ code {
   margin-left: auto;
 }
 
-.menu-items h4 {
+.menu-items h5 {
   margin: 0 3vw;
-  font-size: 22px;
-  font-size: 0.95rem;
+  /* font-size: 22px; */
+  /* font-size: 0.95rem; */
+  color: orange;
 }
-.menu-items h4:hover {
+.menu-items h5:hover {
   color: white;
 }
 .menu-dropdown h3 {
@@ -87,7 +93,43 @@ code {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 740px) {
+
+.join-button {
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background: linear-gradient(to right, rgb(255, 255, 255), #ef6c39);
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.join-button::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+  z-index: -1;
+  /* color: BLACK; */
+}
+.btn::after {
+  content: attr(data);
+  /* font-size: 16px; */
+  background: linear-gradient(to left, #00ffa3, #dc1fff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.join-button:hover {
+  background: #ef6c39;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 820px) {
   .menu-items {
     display: none;
     flex-direction: column;
@@ -123,4 +165,15 @@ code {
     justify-content: center;
     padding: 10px 70px;
   }
+}
+
+/* Hero Home */
+.hero-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../public/images/"); */
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
