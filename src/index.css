@@ -352,7 +352,6 @@ LEFT */
     display: none;
   }
 }
-
 @media screen and (max-width: 400px) {
   .hero-left h1 {
     font-size: 1.7em;
