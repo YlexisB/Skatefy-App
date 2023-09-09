@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="logo-box">
         <h1 className="logo-text">
-          sk<span className="orange">a</span>tefy
+          sk<span>a</span>tefy
         </h1>
       </div>
       <div>

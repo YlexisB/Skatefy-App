@@ -1,5 +1,6 @@
 import React from "react";
 import { HERO_STUFF, NAV_STUFF } from "../constants";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -12,9 +13,12 @@ const Hero = () => {
           <h1>
             <span>{HERO_STUFF.p4}</span>
           </h1>
-          <p>{HERO_STUFF.p5}</p>
+          <p className="ibm-hero">{HERO_STUFF.p5}</p>
           <div className="radius">
-            <div className="join-button hero-join">{NAV_STUFF.join}</div>
+            <div className="join-button hero-join">
+              {NAV_STUFF.join}
+              <MdKeyboardDoubleArrowRight className="btn-arrow" />
+            </div>
           </div>
         </div>
         <div className="hero-right">
@@ -24,23 +28,25 @@ const Hero = () => {
                 <hr />
                 <h1>01</h1>
               </div>
-              <div className="hero-ic hero-ic1">
+              <div className="hero-ic hero-ic2">
                 <hr />
                 <h1>02</h1>
               </div>
-              <div className="hero-ic hero-ic1">
+              <div className="hero-ic hero-ic3">
                 <hr />
                 <h1>03</h1>
               </div>
             </div>
-            <img
-              src="./images/hero-home/hero-small/h-image.png"
-              alt="mini-pic"
-            />
-            <img
-              src="./images/hero-home/hero-small/h-video.mp4"
-              alt="mini-vid"
-            />
+            <div className="image-vid">
+              <img
+                src="./images/hero-home/hero-small/h-image.png"
+                alt="mini-pic"
+              />
+              <img
+                src="./images/hero-home/hero-small/h-gif1.gif"
+                alt="mini-pic"
+              />
+            </div>
           </div>
         </div>
       </div>
