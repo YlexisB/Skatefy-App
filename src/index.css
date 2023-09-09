@@ -50,7 +50,7 @@ span {
   align-items: center;
   justify-content: space-between;
   margin-bottom: auto;
-  color: black;
+  color: rgb(255, 255, 255);
   justify-content: space-around;
   font-family: "Archivo Black", sans-serif;
 }
@@ -161,7 +161,7 @@ span {
   }
 }
 
-/* Hero Home */
+/* Hero Home *********************HERO HOME*/
 .hero-image {
   background-image: url("../public/images/hero-home/hero-bg/hero-1.jpg");
   height: 50%;
@@ -206,6 +206,7 @@ LEFT */
   font-size: 4em;
   margin-bottom: 0;
   margin-top: 0;
+  line-height: 1.1em;
 }
 .hero-join {
   width: 130px;
@@ -296,4 +297,75 @@ LEFT */
 }
 .hero-right-all .image-vid img:nth-child(1) {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 610px) {
+  .hero-all {
+    padding: 0px;
+  }
+  .hero-left-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .hero-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 10%;
+  }
+  .hero-left p {
+    margin-bottom: 0;
+    font-size: 0.8em;
+  }
+  .ibm-hero {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    width: 70%;
+    margin-top: 5px;
+  }
+  .hero-left h1 {
+    font-size: 2.5em;
+  }
+  .hero-join {
+    width: 85%;
+    height: 25px;
+  }
+  .hero-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-left h1 {
+    font-size: 2em;
+  }
+  .hero-join {
+    width: 75%;
+    height: 20px;
+  }
+  .hero-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-left h1 {
+    font-size: 1.7em;
+  }
+  .hero-join {
+    width: 70%;
+    height: 20px;
+  }
+  .hero-right {
+    display: none;
+  }
+  .hero-left-right {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
