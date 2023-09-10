@@ -432,8 +432,8 @@ LEFT */
 
   /* grid-template-rows: 378px 378px 378px;
   grid-template-columns: 0px 663.6px 663px 663.6px 0px; */
-  grid-template-rows: 378px 378px;
-  grid-template-columns: 0fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 377px 377px;
+  grid-template-columns: 0fr 1fr 1fr 1fr 0.3fr;
 
   gap: 30px;
   height: 100%;
