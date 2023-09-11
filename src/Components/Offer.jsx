@@ -60,7 +60,7 @@ const Offer = () => {
                   have just tehe coaches for you.
                 </p>
               </div>{" "}
-              <img src="./images/offer/img-6.png" alt="" />
+              <img src="./images/offer/big-img-6.png" alt="" />
             </div>
           </div>
         </div>
