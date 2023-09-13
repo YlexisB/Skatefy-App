@@ -4,6 +4,10 @@ import Offer from "../Components/Offer";
 import About from "../Components/About";
 import OurStudents from "../Components/Students/OurStudents";
 import Ourteam from "../Components/Ourteam";
+import FAQ from "../Components/FAQ";
+import Join from "../Components/Join";
+import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +17,10 @@ const Home = () => {
       <About />
       <OurStudents />
       <Ourteam />
+      <FAQ />
+      <Join />
+      <Contact />
+      <Footer />
     </div>
   );
 };

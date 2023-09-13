@@ -1,6 +1,7 @@
 import React from "react";
 import { HERO_STUFF, NAV_STUFF } from "../constants";
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import JoinButton from "./JoinButton";
+// import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -15,10 +16,11 @@ const Hero = () => {
           </h1>
           <p className="ibm-hero">{HERO_STUFF.p5}</p>
           <div className="radius">
-            <div className="join-button hero-join">
+            {/* <div className="join-button hero-join">
               {NAV_STUFF.join}
               <MdKeyboardDoubleArrowRight className="btn-arrow" />
-            </div>
+            </div> */}
+            <JoinButton />
           </div>
         </div>
         <div className="hero-right">

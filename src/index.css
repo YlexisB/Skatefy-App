@@ -425,7 +425,7 @@ LEFT */
   padding-left: 6%;
 }
 .offer-top h1 {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 .angry-grid {
   padding-left: 5%;
@@ -769,7 +769,7 @@ LEFT */
   width: 58%;
 }
 .about-left h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   margin-bottom: 0;
 }
 .about-left p {
@@ -1113,7 +1113,7 @@ LEFT */
 }
 
 .students-all h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   margin-bottom: 100px;
 }
 .slider {
@@ -1386,7 +1386,7 @@ LEFT */
   margin-right: 30px;
 }
 .team-left h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -1695,4 +1695,372 @@ LEFT */
   .orange-split {
     padding: 40px;
   }
+}
+
+/* FAQ SECTION **************************************FAQ******************/
+.faq-section {
+  background: #558493;
+  font-family: "Archivo Black", sans-serif;
+  padding-top: 40px;
+  color: white;
+  overflow: hidden;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+.faq-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+}
+.faq-toggle {
+  font-size: 0.9em;
+}
+.faq-container h1 {
+  font-size: 3.5em;
+}
+.faq {
+  max-width: 70%;
+  /* display: flex; */
+}
+
+.faq-item {
+  border-top: 1px solid #acc3cb;
+  /* border-bottom: 1px solid #ddd; */
+
+  padding: 30px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #4b7684;
+}
+
+.faq-question {
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-answer {
+  margin-top: 20px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .faq-container {
+    padding-left: 6%;
+  }
+  .faq-container h1 {
+    font-size: 3.2em;
+  }
+  .faq {
+    max-width: 75%;
+  }
+  .faq-question {
+    font-size: 1.5em;
+  }
+
+  .faq-answer {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 6%;
+  }
+  .faq-container h1 {
+    font-size: 2.2em;
+  }
+  .faq {
+    max-width: 85%;
+  }
+  .faq-question {
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+  }
+
+  .faq-answer {
+    margin-top: 20px;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+  }
+  .faq-toggle {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .faq-container h1 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faq-question {
+    font-size: 0.95em;
+  }
+
+  .faq-answer {
+    font-size: 0.9em;
+  }
+}
+
+/* JOIN SECTION ***************************JOIN-SECTION*/
+
+.join-image {
+  background-image: url("../public/images/join/join-1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* padding-bottom: 500px; */
+  margin-top: auto;
+}
+.join-all {
+  height: 80vh;
+  display: flex;
+  align-items: end;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.join-text {
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 300px; */
+  padding: 0% 6%;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.join-text h1 {
+  color: white;
+  font-size: 2.8em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 1.3em;
+}
+
+@media screen and (max-width: 1500px) {
+  .join-text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .join-text h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .join-text h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .join-text h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .join-text h1 {
+    font-size: 1.7em;
+  }
+  .join-all {
+    height: 70vh;
+  }
+  .join-text {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .join-text h1 {
+    font-size: 1.5em;
+  }
+  .join-all {
+    height: 60vh;
+  }
+  .join-text {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .join-text h1 {
+    font-size: 1.3em;
+  }
+  .join-all {
+    height: 55vh;
+  }
+  .join-text {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .join-text h1 {
+    font-size: 1em;
+  }
+  .join-all {
+    height: 45vh;
+  }
+  .join-text {
+    width: 95%;
+  }
+}
+
+/* CONTACT**************************************CONTACT */
+.contact-all {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0% 80px 6%;
+  font-family: "Archivo Black", sans-serif;
+  color: #558493;
+}
+.contact-stuff {
+  display: flex;
+  align-items: center;
+}
+.contact-stuff hr {
+  border: 3px solid #558493;
+  height: 1.6em;
+  margin: 0px 70px;
+}
+
+.contact-pairs {
+  display: flex;
+  align-items: center;
+}
+.contact-pairs h3 {
+  font-size: 1.3vw;
+}
+.contact-pairs .pair-2 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  margin-right: 10px;
+}
+
+.contact-all h1 {
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1150px) {
+  .contact-pairs h3 {
+    font-size: 1.4vw;
+  }
+  .contact-stuff hr {
+    border: 3px solid #558493;
+    height: 1.6em;
+    margin: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact-pairs h3 {
+    font-size: 1.4vw;
+  }
+  .contact-stuff hr {
+    border: 2.5px solid #558493;
+    height: 1.2em;
+    margin: 0px 30px;
+  }
+  .contact-all h1 {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+  }
+  .contact-all {
+    padding: 60px 0% 60px 6%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .contact-pairs h3 {
+    font-size: 1.5vw;
+  }
+  .contact-stuff hr {
+    border: 2.5px solid #558493;
+    height: 1.3em;
+    margin: 0px 20px;
+  }
+  .contact-all h1 {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .contact-stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .contact-stuff hr {
+    display: none;
+  }
+  .contact-pairs h3 {
+    font-size: 1em;
+  }
+  .contact-all {
+    padding: 50px 6% 50px 6%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-pairs h3 {
+    font-size: 0.9em;
+  }
+  .contact-all h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .contact-all {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 6% 30px 6%;
+    font-family: "Archivo Black", sans-serif;
+    color: #558493;
+  }
+}
+
+/* FOOTER *****************************************/
+.footer-section {
+  background-color: #558493;
+  font-family: "Archivo Black", sans-serif;
+}
+.footer-all {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 6% 20px 6%;
+}
+.footer-all h1 {
+  color: white;
+  font-size: 3.5em;
+}
+.footer-tabs {
+  display: flex;
+  justify-content: space-between;
+
+  width: 35%;
+  color: white;
+}
+.footer-tabs .section p {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
