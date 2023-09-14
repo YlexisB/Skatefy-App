@@ -26,8 +26,9 @@ export default class PauseOnHover extends Component {
               </h1>
               <p>
                 {" "}
-                We host one to one <span>competitions building</span> enjoyment
-                , and confidence & skill.
+                Skatefy has been a <span>game-changer </span>for me. The
+                instructors' dedication and patience have taken my skills to a
+                whole new level.
               </p>
             </div>{" "}
             <img src="./images/ourstudents/gif-1.gif" alt="" />
@@ -44,8 +45,8 @@ export default class PauseOnHover extends Component {
 
               <p>
                 {" "}
-                We host <span> one to one</span> competitions building enjoyment
-                , and confidence & skill.
+                Skatefy not only <span>improved our skating</span> but also
+                brought us together as best friends. We're forever grateful."
               </p>
             </div>{" "}
             <img src="./images/ourstudents/gif-2.gif" alt="" />
@@ -61,8 +62,9 @@ export default class PauseOnHover extends Component {
               </h1>
               <p>
                 {" "}
-                We host one to one competitions <span> building</span> enjoyment
-                , and confidence & skill.
+                I'm only 9, but Skatefy makes me{" "}
+                <span> feel like a skateboarding pro. </span> It's so much fun,
+                and the coaches are awesome!
               </p>
             </div>{" "}
             <img src="./images/ourstudents/gif-3.gif" alt="" />
@@ -78,8 +80,8 @@ export default class PauseOnHover extends Component {
               </h1>
               <p>
                 {" "}
-                We host one to one competitions building enjoyment , and
-                <span>confidence & skill</span>.
+                I've always wanted to master kickflips, and
+                <span> Skatefy helped me achieve it. </span>.
               </p>
             </div>{" "}
             <img src="./images/ourstudents/gif-4.gif" alt="" />
@@ -95,8 +97,8 @@ export default class PauseOnHover extends Component {
               </h1>
               <p>
                 {" "}
-                We host one to one competitions <span>building </span>
-                enjoyment , and confidence & skill.
+                Skatefy is my <span>skateboarding sanctuary. </span>
+                The community, coaching, and competitions are awesome.
               </p>
             </div>{" "}
             <img src="./images/ourstudents/gif-5.gif" alt="" />

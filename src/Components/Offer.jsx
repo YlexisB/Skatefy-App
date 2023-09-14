@@ -16,9 +16,13 @@ const Offer = () => {
                   PRIVATE LESSONS{" "}
                   <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </h1>
-                <p> One to ine or small private groups.</p>
+                <p>
+                  {" "}
+                  Skate your way with flexible Private Lessons, tailored for
+                  both small groups and one-on-one training
+                </p>
               </div>
-              <img src="./images/offer/big-img-1.png" alt="" />
+              <img src="./images/offer/o-image-1.png" alt="" />
             </div>
             <div id="item-1" className="item">
               <div className="text-container">
@@ -28,11 +32,11 @@ const Offer = () => {
                 </h1>
                 <p>
                   {" "}
-                  Next level stuff methodology coaching with video analysis and
-                  a progression program.
+                  Get expert guidance and insight with our Video Coaching. Watch
+                  your skills soar with our tailored feedback.
                 </p>
               </div>{" "}
-              <img src="./images/offer/big-img-2.png" alt="" />
+              <img src="./images/offer/o-image-2.png" alt="" />
             </div>
             <div id="item-2" className="item">
               <div className="text-container">
@@ -42,8 +46,8 @@ const Offer = () => {
                 </h1>
                 <p>
                   {" "}
-                  We host one to one competitions building enjoyment , and
-                  confidence & skill.
+                  Test your skateboarding prowess and connect with the community
+                  in Skatefy's thrilling skateboarding competitions.
                 </p>
               </div>{" "}
               <img src="./images/offer/big-img-3.png" alt="" />
@@ -56,11 +60,11 @@ const Offer = () => {
                 </h1>
                 <p>
                   {" "}
-                  Wanting to hone your skill or feel like you've plateaued? We
-                  have just tehe coaches for you.
+                  Ready to go beyond the basics? Our Beyond Beginner Lessons
+                  unlock the world of advanced tricks and techniques.
                 </p>
               </div>{" "}
-              <img src="./images/offer/big-img-6.png" alt="" />
+              <img src="./images/offer/o-image-7.png" alt="" />
             </div>
           </div>
         </div>

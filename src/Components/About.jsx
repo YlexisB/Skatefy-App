@@ -7,15 +7,16 @@ const About = () => {
         <div className="about-left">
           <h1>| ABOUT</h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the <span>readable content</span> of a page when looking at its
-            layout. The point of using Lorem Ipsum is that it has a more-or-less
-            normal <span>distribution</span> of letters,
+            Founded by <span>Allen Carter </span>and <span>Mike Ohara</span>{" "}
+            during their high school years, Skatefy has been uniting skateboard
+            enthusiasts for 8 years. What began as a shared passion for skating
+            has evolved into <span> a thriving community</span>.
           </p>
           <p>
-            It is a long established <span>fact that a reader</span> will be
-            distracted by the readable content of a page when looking at its
-            layout.{" "}
+            We embrace skateboarders of all skill levels. Our mission: to
+            empower individuals through skateboarding, fostering confidence,
+            creativity, and connections within our{" "}
+            <span> vibrant skateboarding family</span>.
           </p>
         </div>
         <div className="about-right">

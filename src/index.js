@@ -4,6 +4,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
+import Lesson from "./Pages/Lesson";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
     //   </Routes>
     // </HashRouter>
     <>
-      <Home />
+      {/* <Home /> */}
+      <Lesson />
     </>
   );
 };

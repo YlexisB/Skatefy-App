@@ -1,14 +1,14 @@
 import React from "react";
 import { HERO_STUFF, NAV_STUFF } from "../constants";
 import JoinButton from "./JoinButton";
-// import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
     <div className="hero-all">
       <div className="hero-left-right">
         <div className="hero-left">
-          <p>{HERO_STUFF.p1}</p>
+          <p className="p1">{HERO_STUFF.p1}</p>
           <h1>{HERO_STUFF.p2}</h1>
           <h1>{HERO_STUFF.p3}</h1>
           <h1>
@@ -40,12 +40,26 @@ const Hero = () => {
               </div>
             </div>
             <div className="image-vid">
+              <div className="h-1-box">
+                <div className="text-container">
+                  <h3>PRIVATE SKATE LESSONS</h3>
+                  <p>
+                    {" "}
+                    One to one or small private groups. develop your skills with
+                    higly experienced skate instructors.
+                  </p>
+                  <h4>
+                    READ MORE{" "}
+                    <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                  </h4>
+                </div>
+                <img
+                  src="./images/hero-home/hero-small/h-img-1.png"
+                  alt="mini-pic"
+                />
+              </div>
               <img
-                src="./images/hero-home/hero-small/h-image.png"
-                alt="mini-pic"
-              />
-              <img
-                src="./images/hero-home/hero-small/h-gif1.gif"
+                src="./images/hero-home/hero-small/h-gif-2.gif"
                 alt="mini-pic"
               />
             </div>
