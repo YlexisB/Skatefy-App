@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_STUFF, NAV_STUFF } from "../constants";
-import JoinButton from "./JoinButton";
+import JoinButton from "./Join/JoinButton";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Hero = () => {

@@ -2324,3 +2324,464 @@ LEFT */
     padding: 5px 3% 15px 6%;
   }
 }
+
+/* LESSONS******************************LESSONS */
+#lessons {
+  background-color: #faf9f6;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.about-lessons-all {
+  display: flex;
+  margin: 0 6% 0 6%;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.lesson-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+.lesson-text h1 {
+  font-size: 2.5vw;
+  /* font-size: 3em; */
+}
+.lesson-text p {
+  font-size: 1.1vw;
+  width: 90%;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+  margin-bottom: 4%;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+.lesson-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12%;
+  margin-bottom: 4%;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+}
+
+.stat hr {
+  height: 55%;
+  border: 2.5px solid #ef6c39;
+  margin: 0 20px;
+}
+.stat-1 hr {
+  margin: 0px 0px;
+  margin-right: 20px;
+}
+.l-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.l-stat h2 {
+  font-size: 1.65vw;
+  margin-bottom: 0;
+}
+.l-stat p {
+  font-size: 1vw;
+  margin-top: 0;
+}
+
+.lesson-images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.lesson-images img {
+  width: 30%;
+  border: 5px solid white;
+}
+
+.lesson-right {
+  width: 50%;
+}
+.lesson-gif img {
+  width: 90%;
+  height: 80%;
+}
+.lesson-who-text {
+  margin-top: 5%;
+}
+.lesson-who-text h3 {
+  font-size: 1.5vw;
+}
+.lesson-who-text p {
+  font-size: 1.1vw;
+  width: 90%;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.lesson-gif img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid white;
+}
+
+@media screen and (max-width: 950px) {
+  .lesson-who-text {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .lesson-text p {
+    font-size: 1.25vw;
+    width: 95%;
+  }
+  .lesson-who-text p {
+    font-size: 1.25vw;
+    width: 95%;
+  }
+
+  .lesson-who-text h3 {
+    font-size: 1.7vw;
+  }
+  .lesson-text h1 {
+    font-size: 2.7vw;
+    /* font-size: 3em; */
+  }
+  .l-stat h2 {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .about-lessons-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .lesson-left {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .lesson-text h1 {
+    font-size: 3vw;
+    /* font-size: 3em; */
+  }
+  .lesson-text p {
+    font-size: 1.8vw;
+    width: 98%;
+  }
+  .lesson-who-text {
+    margin-top: 5%;
+  }
+  .l-stat h2 {
+    font-size: 2.5vw;
+  }
+  .l-stat p {
+    font-size: 1.5vw;
+  }
+  .lesson-right {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .lesson-gif img {
+    width: 98%;
+    height: 80%;
+  }
+  .lesson-who-text h3 {
+    font-size: 2vw;
+  }
+  .lesson-who-text p {
+    font-size: 1.8vw;
+    width: 98%;
+  }
+}
+
+/* BENEFITS *********************BENEFITS*/
+
+#benefits {
+  background-color: #252723;
+  margin-top: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.benefits-all {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 6%;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+.benefits-all h1 {
+  font-size: 2.5vw;
+  margin-bottom: 3%;
+}
+.benefits-bottom {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.benefits-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* justify-content: space-between; */
+  margin-right: 1%;
+}
+.box {
+  border: 3px solid white;
+  padding: 2%;
+  margin: 3% 0px;
+}
+.box-1 {
+  margin: 0px 0px 3% 0px;
+}
+.box-3 {
+  margin: 3% 0px 0px 0px;
+}
+.box-4 {
+  margin: 3% 0px 0px 0px;
+}
+.box h2 {
+  font-size: 1.8vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.box p {
+  font-size: 1vw;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  margin-bottom: 0;
+}
+/* .benefits-left .box-2 {
+  width: 100%;
+} */
+.benefits-left .box-2 img {
+  border: 3px solid white;
+  width: 99%;
+  margin-bottom: 0;
+}
+.benefits-left .box-2 {
+  margin-top: auto;
+}
+.benefits-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 1%;
+  justify-content: space-between;
+}
+
+.benefits-right .double {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.benefits-right .double img {
+  border: 3px solid white;
+  width: 48%;
+}
+@media screen and (max-width: 900px) {
+  .benefits-right .double img {
+    width: 47%;
+  }
+  .benefits-all {
+    margin: 10px 6%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .benefits-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits-left {
+    width: 100%;
+    /* justify-content: space-between; */
+    margin-right: 0%;
+  }
+  .benefits-all h1 {
+    font-size: 3vw;
+    margin-bottom: 2%;
+  }
+  .benefits-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .box {
+    margin: 5% 0px;
+  }
+  .box-1 {
+    margin: 5% 0px;
+  }
+  .box-3 {
+    margin: 5% 0px 0px 0px;
+  }
+  .box-4 {
+    margin: 5% 0px 0px 0px;
+  }
+  .box h2 {
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .box p {
+    font-size: 1.8vw;
+  }
+  .benefits-left .box-2 {
+    margin: 0px 0px 5% 0px;
+  }
+  .benefits-right .double img {
+    width: 47%;
+  }
+}
+
+/* PRICE CARD ******************************PRICE CARDS*/
+#price-section {
+  padding: 50px 0px;
+}
+.price-all {
+  margin: 0px 6%;
+  font-family: "Archivo Black", sans-serif;
+}
+.price-all h1 {
+  font-size: 2.5vw;
+}
+.price-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price-cards .columns {
+  float: left;
+  width: 20%;
+  padding: 2%;
+}
+.price-cards .columns .btn-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price .header {
+  background-color: #252723;
+  color: white;
+  font-size: 1.3vw;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.price-cards .button {
+  background-color: #ef6c39;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1150px) {
+  .price-cards .columns {
+    width: 40%;
+    padding: 5%;
+  }
+  .price .header {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .price-cards .columns {
+    width: 90%;
+  }
+  .price .header {
+    font-size: 3vw;
+  }
+  .price-cards .button {
+    padding: 8px 15px;
+
+    font-size: 2.5vw;
+
+    width: 30%;
+  }
+  .price-cards .columns .btn-arrow {
+    width: 15px;
+    height: 15px;
+  }
+  .price-all h1 {
+    font-size: 3vw;
+  }
+}
+
+/* PRIVATE LESSONS */
+
+.private-hero {
+  background-image: url("../public/images/join/hero-2.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.private-hero-text {
+  margin: 150px 6% 30px 6%;
+  font-family: "Archivo Black", sans-serif;
+}
+.private-hero-text h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #2b2d29;
+}
+
+.private-hero-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4.5em;
+  line-height: 1em;
+  color: #000000;
+}
+.private-hero-text p {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  width: 40%;
+  letter-spacing: 1.5px;
+}

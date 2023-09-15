@@ -4,7 +4,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
-import Lesson from "./Pages/Lesson";
+import PrivateLessons from "./Pages/PrivateLessons";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
     // </HashRouter>
     <>
       {/* <Home /> */}
-      <Lesson />
+      <PrivateLessons />
     </>
   );
 };

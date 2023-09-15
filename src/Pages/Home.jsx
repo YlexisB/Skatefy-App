@@ -5,7 +5,7 @@ import About from "../Components/About";
 import OurStudents from "../Components/Students/OurStudents";
 import Ourteam from "../Components/Ourteam";
 import FAQ from "../Components/FAQ";
-import Join from "../Components/Join";
+import Join from "../Components/Join/Join";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 
