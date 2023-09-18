@@ -13,16 +13,16 @@ export const privateBenefits = {
   para3:
     "At Skatefy, we understand that life can be busy, which is why we offer flexible scheduling for our private lessons, allowing you to choose a time that fits seamlessly into your routine.",
 
-  image1: "./images/privateL/small/p-img-1.png",
-  image2: "./images/privateL/small/p-img-2.png",
+  image1: "./images/privateL/small/p-img-4.png",
+  image2: "./images/privateL/small/p-img-5.png",
 
-  gif: "./images/lessom-gifs/gif1.gif",
+  gif: "./images/lesson-gifs/gif-4.gif",
 };
 
 export const videoBenefits = {
   title: "VIDEO COACHING LESSONS",
   header1: "PERSONALIZED ",
-  header1Span: "Feedback",
+  header1Span: "FEEDBACK",
   para1:
     "With Skatefy's Video Coaching, you'll receive personalized feedback and guidance tailored to your specific skateboarding skills and goals, helping you hone your technique with precision.",
   header2: "CONVENIENT",
@@ -30,18 +30,18 @@ export const videoBenefits = {
   para2:
     "Video Coaching offers the convenience of learning from the comfort of your own skate spot. No need to travel; simply film your session, and our expert instructors will provide insights to help you progress.",
   header3: "SKILL",
-  header3Span: "Enhancement",
+  header3Span: "EMHANCEMENT",
   para3:
     "Our Video Coaching is a game-changer for skill enhancement, enabling you to analyze your own performance, identify areas for improvement, and refine your skateboarding prowess with targeted advice.",
 
-  image1: "./images/privateL/small/p-img-1.png",
-  image2: "./images/privateL/small/p-img-2.png",
+  image1: "./images/videoCoaching/small/v-img-4.png",
+  image2: "./images/videoCoaching/small/v-img-5.png",
 
-  gif: "./images/lessom-gifs/gif1.gif",
+  gif: "./images/lesson-gifs/gif-5.gif",
 };
 
 export const beyondBeginnerBenefits = {
-  title: "BEYONG BEGINNER LESSONS",
+  title: "BEYOND BEGINNER LESSONS",
   header1: "VARIED",
   header1Span: "LEARNING",
   para1:
@@ -55,8 +55,8 @@ export const beyondBeginnerBenefits = {
   para3:
     "Our Beyond Beginner Lessons provide personalized challenges and guidance, tailored to your current skill level. You'll receive hands-on instruction and coaching to push your limits safely and effectively.",
 
-  image1: "./images/privateL/small/p-img-1.png",
-  image2: "./images/privateL/small/p-img-2.png",
+  image1: "./images/beyondBegin/b-img-4.png",
+  image2: "./images/beyondBegin/b-img-5.png",
 
-  gif: "./images/lessom-gifs/gif1.gif",
+  gif: "./images/lesson-gifs/gif-6.gif",
 };

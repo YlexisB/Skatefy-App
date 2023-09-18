@@ -14,9 +14,9 @@ const PrivateLessons = () => {
   return (
     <div>
       <PrivateLHero />
-      <Lesson {...privateLessons} />
-      <LessonBenefits {...privateBenefits} />
-      <PriceCards {...privatePrice} />
+      <Lesson lessonData={privateLessons} />
+      <LessonBenefits lessonData2={privateBenefits} />
+      <PriceCards lessonPrice={privatePrice} />
       <FAQ />
       <Join />
       <Footer />

@@ -11,7 +11,7 @@ export const privateLessons = {
   image1: "./images/privateL/small/p-img-1.png",
   image2: "./images/privateL/small/p-img-2.png",
   image3: "./images/privateL/small/p-img-3.png",
-  gif: "./images/lessom-gifs/gif1.gif",
+  gif: "./images/lesson-gifs/gif-2.gif",
 };
 
 export const videoCoaching = {
@@ -27,7 +27,7 @@ export const videoCoaching = {
   image1: "./images/videoCoaching/small/v-img-1.png",
   image2: "./images/videoCoaching/small/v-img-2.png",
   image3: "./images/videoCoaching/small/v-img-3.png",
-  gif: "./images/lesson-gifs/gif-2.png",
+  gif: "./images/lesson-gifs/gif-1.gif",
 };
 
 export const beyondBeginner = {
@@ -40,8 +40,8 @@ export const beyondBeginner = {
   duration: "1.5 HOUR",
   skillLevel: "MID-LEVEL+",
   ageRange: "5+",
-  image1: "./images/beyondBegin/small/b-img-1.png",
-  image2: "/images/beyondBegin/small/b-img-2.png",
-  image3: "/images/beyondBegin/small/b-img-3.png",
-  gif: "./images/lesson-gifs/gif-3.png",
+  image1: "./images/beyondBegin/b-img-1.png",
+  image2: "/images/beyondBegin/b-img-2.png",
+  image3: "/images/beyondBegin/b-img-3.png",
+  gif: "./images/lesson-gifs/gif-3.GIF",
 };

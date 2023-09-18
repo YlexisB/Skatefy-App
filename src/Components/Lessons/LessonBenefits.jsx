@@ -1,53 +1,41 @@
 import React from "react";
-const LessonBenefits = () => {
+const LessonBenefits = ({ lessonData2 }) => {
   return (
     <div id="benefits">
       <div className="benefits-all">
-        <h1>| BENEFITS OF PRIVATE LESSONS</h1>
+        <h1>| BENEFITS OF {lessonData2.title}</h1>
         <div className="benefits-bottom">
           <div className="benefits-left">
             <div className="box box-1">
               <h2>
                 {" "}
-                PERSONALIZED <span>APPROACH</span>
+                {lessonData2.header1}
+                <span> {lessonData2.header1Span}</span>
               </h2>
-              <p>
-                Video Coaching offers the convenience of learning from the
-                comfort of your own skate spot. No need to travel; simply film
-                your session, and our expert instructors will provide insights
-                to help you progress.
-              </p>
+              <p>{lessonData2.para1}</p>
             </div>
             <div className=" box-2">
-              <img src="./images/lesson-gifs/gif-2.gif" alt="" />
+              <img src={lessonData2.gif} alt="" />
             </div>
           </div>
           <div className="benefits-right">
             <div className="double">
-              <img src="./images/privatel/small/p-img-1.png" alt="" />
-              <img src="./images/privatel/small/p-img-2.png" alt="" />
+              <img src={lessonData2.image1} alt="" />
+              <img src={lessonData2.image2} alt="" />
             </div>
             <div className="box box-3">
               <h2>
                 {" "}
-                FAST <span>PROGRESS</span>
+                {lessonData2.header2} <span>{lessonData2.header2Span}</span>
               </h2>
-              <p>
-                Offers the convenience of learning from the comfort of your own
-                skate spot. No need to travel; simply film your session, and our
-                expert instructors will provide insights to help you progress.
-              </p>
+              <p>{lessonData2.para2}</p>
             </div>
             <div className="box box-4">
               <h2>
                 {" "}
-                FLEXIBLE <span>SCHEDULE</span>
+                {lessonData2.header3} <span> {lessonData2.header3Span}</span>
               </h2>
-              <p>
-                The convenience of learning from the comfort of your own skate
-                spot. No need to travel; simply film your session, and our
-                expert instructors will provide insights to help you progress.
-              </p>
+              <p>{lessonData2.para3}</p>
             </div>
           </div>
         </div>

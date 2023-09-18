@@ -2335,7 +2335,7 @@ LEFT */
 
 .about-lessons-all {
   display: flex;
-  margin: 0 6% 0 6%;
+  margin: 4% 6% 0 6%;
   font-family: "Archivo Black", sans-serif;
 }
 
@@ -2751,7 +2751,7 @@ LEFT */
 /* PRIVATE LESSONS */
 
 .private-hero {
-  background-image: url("../public/images/join/hero-2.jpg");
+  background-image: url("../public/images/privateL/big/p-hero-img3.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -2768,7 +2768,7 @@ LEFT */
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.5em;
-  color: #2b2d29;
+  color: #e1e1e1;
 }
 
 .private-hero-text h1 {
@@ -2776,7 +2776,7 @@ LEFT */
   margin-bottom: 0;
   font-size: 4.5em;
   line-height: 1em;
-  color: #000000;
+  color: #efefef;
 }
 .private-hero-text p {
   margin-bottom: 0;
@@ -2784,4 +2784,501 @@ LEFT */
   font-family: "IBM Plex Sans Condensed", sans-serif;
   width: 40%;
   letter-spacing: 1.5px;
+  color: #e1e1e1;
+}
+
+@media screen and (max-width: 1250px) {
+  .private-hero-text h5 {
+    font-size: 1.3em;
+  }
+
+  .private-hero-text h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.5em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    width: 50%;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .private-hero-text h5 {
+    font-size: 1.2em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 3.5em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 50%;
+  }
+  .private-hero {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .private-hero-text h5 {
+    font-size: 1em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 3.2em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 60%;
+  }
+  .private-hero {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .private-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 3em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 70%;
+  }
+  .private-hero {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .private-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 2.5em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 80%;
+  }
+  .private-hero {
+    padding-bottom: 50px;
+  }
+  .private-hero .hero-join {
+    width: 80%;
+    font-size: 1em;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .private-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 2.3em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+  }
+  .private-hero {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .private-hero-text h5 {
+    font-size: 0.8em;
+  }
+
+  .private-hero-text h1 {
+    font-size: 1.8em;
+  }
+  .private-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.7em;
+
+    width: 85%;
+  }
+  .private-hero {
+    padding-bottom: 30px;
+  }
+  .private-hero .hero-join {
+    width: 70%;
+    font-size: 0.9em;
+    height: 13px;
+  }
+}
+/* VIDEO COACHING HERO */
+.video-hero {
+  background-image: url("../public/images/videoCoaching/big/v-hero-img3.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.video-hero-text {
+  margin: 150px 6% 30px 6%;
+  font-family: "Archivo Black", sans-serif;
+}
+.video-hero-text h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #e1e1e1;
+}
+
+.video-hero-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4.5em;
+  line-height: 1em;
+  color: #efefef;
+}
+.video-hero-text p {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  width: 40%;
+  letter-spacing: 1.5px;
+  color: #e1e1e1;
+}
+@media screen and (max-width: 1250px) {
+  .video-hero-text h5 {
+    font-size: 1.3em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 4.5em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 1.5em;
+
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .video-hero-text h5 {
+    font-size: 1.2em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 3.5em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 50%;
+  }
+  .video-hero {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .video-hero-text h5 {
+    font-size: 1em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 3.2em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 60%;
+  }
+  .video-hero {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .video-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 3em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 70%;
+  }
+  .video-hero {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .video-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 2.4em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 80%;
+  }
+  .video-hero {
+    padding-bottom: 50px;
+  }
+  .video-hero .hero-join {
+    width: 80%;
+    font-size: 1em;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .video-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 2.3em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 90%;
+  }
+  .video-hero {
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .video-hero-text h5 {
+    font-size: 0.8em;
+  }
+
+  .video-hero-text h1 {
+    font-size: 1.8em;
+  }
+  .video-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.7em;
+    width: 95%;
+  }
+  .video-hero {
+    padding-bottom: 30px;
+  }
+  .video-hero .hero-join {
+    width: 75%;
+    font-size: 0.9em;
+    height: 13px;
+  }
+}
+
+/* BEYOND-BEGINNER *********************************/
+
+.beyond-hero {
+  background-image: url("../public/images/privateL/big/p-hero-img11.png");
+  height: 50%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.beyond-hero-text {
+  margin: 150px 6% 30px 6%;
+  font-family: "Archivo Black", sans-serif;
+}
+.beyond-hero-text h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #2b2d29;
+}
+
+.beyond-hero-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4.5em;
+  line-height: 1em;
+  color: #000000;
+}
+.beyond-hero-text p {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  width: 40%;
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 1250px) {
+  .beyond-hero-text h5 {
+    font-size: 1.3em;
+  }
+
+  .beyond-hero-text h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.5em;
+    line-height: 1em;
+    color: #000000;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    width: 50%;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .beyond-hero-text h5 {
+    font-size: 1.2em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 3.5em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 50%;
+  }
+  .beyond-hero {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .beyond-hero-text h5 {
+    font-size: 1em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 3.2em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 1em;
+
+    width: 60%;
+  }
+  .beyond-hero {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .beyond-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 3em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 70%;
+  }
+  .beyond-hero {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .beyond-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 2.4em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 80%;
+  }
+  .beyond-hero {
+    padding-bottom: 50px;
+  }
+  .beyond-hero .hero-join {
+    width: 80%;
+    font-size: 1em;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .beyond-hero-text h5 {
+    font-size: 0.9em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 2.3em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+
+    width: 60%;
+  }
+  .beyond-hero {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .beyond-hero-text h5 {
+    font-size: 0.8em;
+  }
+
+  .beyond-hero-text h1 {
+    font-size: 1.5em;
+  }
+  .beyond-hero-text p {
+    margin-bottom: 0;
+    font-size: 0.7em;
+
+    width: 90%;
+    font-weight: 800;
+  }
+  .beyond-hero {
+    padding-bottom: 15px;
+  }
+  .beyond-hero .hero-join {
+    width: 70%;
+    font-size: 0.9em;
+    height: 13px;
+  }
 }

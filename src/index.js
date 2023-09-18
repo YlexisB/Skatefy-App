@@ -5,6 +5,8 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./Pages/Home";
 import PrivateLessons from "./Pages/PrivateLessons";
+import VideoCoaching from "./Pages/VideoCoaching";
+import BeyondBeginner from "./Pages/BeyondBeginner";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
     <>
       {/* <Home /> */}
       <PrivateLessons />
+      <VideoCoaching />
+      <BeyondBeginner />
     </>
   );
 };
