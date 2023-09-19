@@ -64,7 +64,7 @@ const Offer = () => {
                   unlock the world of advanced tricks and techniques.
                 </p>
               </div>{" "}
-              <img src="./images/offer/o-image-7.png" alt="" />
+              <img src="./images/offer/o-image-13.png" alt="" />
             </div>
           </div>
         </div>

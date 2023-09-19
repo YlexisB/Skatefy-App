@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import PrivateLessons from "./Pages/PrivateLessons";
 import VideoCoaching from "./Pages/VideoCoaching";
 import BeyondBeginner from "./Pages/BeyondBeginner";
+import CompetitionPage from "./Pages/CompetitionPage";
 
 const App = () => {
   return (
@@ -16,10 +17,11 @@ const App = () => {
     //   </Routes>
     // </HashRouter>
     <>
-      {/* <Home /> */}
+      <Home />
       <PrivateLessons />
       <VideoCoaching />
       <BeyondBeginner />
+      <CompetitionPage />
     </>
   );
 };
