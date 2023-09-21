@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Skatefy-App/static/css/main.b1c599db.css",
+    "main.js": "/Skatefy-App/static/js/main.77a2713c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Skatefy-App/static/js/787.28cb0dcd.chunk.js",
+    "static/media/c-hero-gif.gif": "/Skatefy-App/static/media/c-hero-gif.0c1684ca36435e96705b.gif",
+    "static/media/hero-2.jpg": "/Skatefy-App/static/media/hero-2.89b827cf03b045bb5b6e.jpg",
+    "static/media/join-3.jpg": "/Skatefy-App/static/media/join-3.c93fdf89c5279b525ab4.jpg",
+    "static/media/join-8.jpg": "/Skatefy-App/static/media/join-8.f9d3de0dce6728cc6a37.jpg",
+    "static/media/v-hero-img3.png": "/Skatefy-App/static/media/v-hero-img3.3fe721198473fc9702d3.png",
+    "static/media/p-hero-img3.png": "/Skatefy-App/static/media/p-hero-img3.468727e16cd50891db30.png",
+    "index.html": "/Skatefy-App/index.html",
+    "main.b1c599db.css.map": "/Skatefy-App/static/css/main.b1c599db.css.map",
+    "main.77a2713c.js.map": "/Skatefy-App/static/js/main.77a2713c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Skatefy-App/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1c599db.css",
+    "static/js/main.77a2713c.js"
+  ]
+}
