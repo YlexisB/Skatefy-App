@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# SKATEFY WEB APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Skatefy web app is a dynamic and engaging platform created to showcase the power of CSS while prioritizing a seamless and user-friendly experience. Designed for skateboard enthusiasts of all levels, Skatefy combines stunning visuals, intuitive navigation, and a range of features to make it a go-to destination for learning skateboarding.
 
-## Available Scripts
+## General Information
 
-In the project directory, you can run:
+- Skatefy is a fictional web application that creatively merges CSS, HTML, and React.js to deliver an immersive skateboarding experience. React.js plays a central role in Skatefy's development, enabling dynamic, interactive interfaces through its efficient component-based architecture.The project's development pipeline is fortified by GitHub Actions, providing continuous integration and deployment (CI/CD) capabilities. Automated workflows are established to build, test, and deploy Skatefy, assuring code quality and reliability with each update.
 
-### `npm start`
+- Skatefy, a fictional web app offering skateboarding lessons, may not be designed to solve immediate business problems directly, but it offers valuable insights for businesses looking to enhance their online presence. By showcasing the power of CSS, modern web technologies like React.js, and a visually engaging layout, Skatefy serves as a source of inspiration. It demonstrates the significance of creating visually appealing and user-friendly websites in today's digital landscape. For businesses seeking to revamp their online platforms or create a fresh online presence, Skatefy's creative design and interactive features can spark ideas and encourage the adoption of modern web technologies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- HTML
 
-### `npm test`
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- JavaScript
 
-### `npm run build`
+- React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- NodeJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsive Design
 
-### `npm run eject`
+- User-Centric Design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Skateboarding Education
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Interactive Interface
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Countdown Timer for Competition
+- Ability to download fitness schedule
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Testimonials
 
-## Learn More
+- Instructor Profiles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Skateboarding Programs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup
 
-### Code Splitting
+This project's dependencies are as follows: react, react-dom,react-router-dom,react-icons,react scripts, and react slick carousel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Following are the requirements to run this project:
 
-### Analyzing the Bundle Size
+Node Package Manager (NPM)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React
 
-### Making a Progressive Web App
+## Project Status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Completed
 
-### Advanced Configuration
+## Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Addition of adding to cart/ checking out functionality
 
-### Deployment
+## Acknowledgement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- This project was inspired by Olena Kmetiuk UI/UX design of a Surfing School website. Link:https://www.behance.net/gallery/176919587/Surfing-school-Website-design
 
-### `npm run build` fails to minify
+### Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg)](https://www.linkedin.com/in/ylexis-butler-67480b14a/)[![](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg)](https://github.com/YlexisB)
