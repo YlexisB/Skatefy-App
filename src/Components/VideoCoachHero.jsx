@@ -12,7 +12,7 @@ const VideoCoachHero = () => {
           <span>VIDEO COACHING </span>
         </h1>
         <h1> LESSONS</h1>
-        <p>
+        <p className="p">
           Unleash your skateboarding potential with our Video Coaching sessions
           at Skatefy, where personalized guidance meets the power of video
           analysis.

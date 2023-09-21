@@ -19,7 +19,7 @@ const Ourteam = () => {
   };
 
   return (
-    <section className="team-section">
+    <section id="team-section">
       <div className="team-all">
         <div className="team-left">
           <h1>| OUR TEAM</h1>

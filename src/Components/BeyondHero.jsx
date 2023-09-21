@@ -12,7 +12,7 @@ const BeyondHero = () => {
           <span>BEYOND BEGINNER </span>
         </h1>
         <h1>LESSONS</h1>
-        <p>
+        <p className="p">
           Take your skateboarding skills to the next level with Skatefy's Beyond
           Beginner Lessons, where the thrill of advanced tricks awaits your
           mastery.

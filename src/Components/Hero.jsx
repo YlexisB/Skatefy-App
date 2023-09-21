@@ -2,6 +2,7 @@ import React from "react";
 import { HERO_STUFF, NAV_STUFF } from "../constants";
 import JoinButton from "./Join/JoinButton";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,13 +16,13 @@ const Hero = () => {
             <span>{HERO_STUFF.p4}</span>
           </h1>
           <p className="ibm-hero">{HERO_STUFF.p5}</p>
-          <div className="radius">
-            {/* <div className="join-button hero-join">
+          {/* <div className="radius"> */}
+          {/* <div className="join-button hero-join">
               {NAV_STUFF.join}
               <MdKeyboardDoubleArrowRight className="btn-arrow" />
             </div> */}
-            <JoinButton />
-          </div>
+          <JoinButton />
+          {/* </div> */}
         </div>
         <div className="hero-right">
           <div className="hero-right-all">
@@ -40,24 +41,27 @@ const Hero = () => {
               </div>
             </div>
             <div className="image-vid">
-              <div className="h-1-box">
-                <div className="text-container">
-                  <h3>PRIVATE SKATE LESSONS</h3>
-                  <p>
-                    {" "}
-                    One to one or small private groups. develop your skills with
-                    higly experienced skate instructors.
-                  </p>
-                  <h4>
-                    READ MORE{" "}
-                    <MdKeyboardDoubleArrowRight className="btn-arrow" />
-                  </h4>
+              <Link to="/PrivateLessons">
+                <div className="h-1-box">
+                  <div className="text-container">
+                    <h3>PRIVATE SKATE LESSONS</h3>
+                    <p>
+                      {" "}
+                      One to one or small private groups. develop your skills
+                      with higly experienced skate instructors.
+                    </p>
+                    <h4>
+                      READ MORE{" "}
+                      <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                    </h4>
+                  </div>
+                  <img
+                    src="./images/hero-home/hero-small/h-img-1.png"
+                    alt="mini-pic"
+                  />
                 </div>
-                <img
-                  src="./images/hero-home/hero-small/h-img-1.png"
-                  alt="mini-pic"
-                />
-              </div>
+              </Link>
+
               <img
                 src="./images/hero-home/hero-small/h-gif-2.gif"
                 alt="mini-pic"

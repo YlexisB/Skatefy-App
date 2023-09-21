@@ -12,7 +12,7 @@ const PrivateLHero = () => {
           <span>PRIVATE</span>
         </h1>
         <h1>SKATE LESSONS</h1>
-        <p>
+        <p className="p">
           Embark on a personalized skateboarding journey with our private
           lessons at Skatefy, where progress and passion meet the pavement.
         </p>

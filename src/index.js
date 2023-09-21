@@ -11,18 +11,15 @@ import CompetitionPage from "./Pages/CompetitionPage";
 
 const App = () => {
   return (
-    // <HashRouter>
-    //   <Routes>
-    //     <Route></Route>
-    //   </Routes>
-    // </HashRouter>
-    <>
-      <Home />
-      <PrivateLessons />
-      <VideoCoaching />
-      <BeyondBeginner />
-      <CompetitionPage />
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/PrivateLessons" element={<PrivateLessons />} />
+        <Route path="/VideoCoaching" element={<VideoCoaching />} />
+        <Route path="/BeyondBeginner" element={<BeyondBeginner />} />
+        <Route path="/Competition" element={<CompetitionPage />} />
+      </Routes>
+    </HashRouter>
   );
 };
 

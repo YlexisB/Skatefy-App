@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const Offer = () => {
+  const navigate = useNavigate();
+  const handleGridItemClick = (pagePath) => {
+    navigate(pagePath);
+  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section id="offer-section">
       <div className="offer">
@@ -10,7 +18,11 @@ const Offer = () => {
         </div>
         <div className="img-grid">
           <div className="angry-grid">
-            <div id="item-0" className="item">
+            <div
+              id="item-0"
+              className="item"
+              onClick={() => handleGridItemClick("/PrivateLessons")}
+            >
               <div className="text-container">
                 <h1>
                   PRIVATE LESSONS{" "}
@@ -22,9 +34,19 @@ const Offer = () => {
                   both small groups and one-on-one training
                 </p>
               </div>
-              <img src="./images/offer/o-image-1.png" alt="" />
+
+              <img
+                src="./images/offer/o-image-1.png"
+                style={{ display: "block", width: "100%", height: "100%" }}
+                alt=""
+              />
             </div>
-            <div id="item-1" className="item">
+
+            <div
+              id="item-1"
+              className="item"
+              onClick={() => handleGridItemClick("/VideoCoaching")}
+            >
               <div className="text-container">
                 <h1>
                   VIDEO COACHING{" "}
@@ -38,7 +60,11 @@ const Offer = () => {
               </div>{" "}
               <img src="./images/offer/o-image-2.png" alt="" />
             </div>
-            <div id="item-2" className="item">
+            <div
+              id="item-2"
+              className="item"
+              onClick={() => handleGridItemClick("/Competition")}
+            >
               <div className="text-container">
                 <h1>
                   COMPETITIONS{" "}
@@ -52,7 +78,11 @@ const Offer = () => {
               </div>{" "}
               <img src="./images/offer/big-img-3.png" alt="" />
             </div>
-            <div id="item-3" className="item">
+            <div
+              id="item-3"
+              className="item"
+              onClick={() => handleGridItemClick("/BeyondBeginner")}
+            >
               <div className="text-container">
                 <h1>
                   BEYOND BEGINNER{" "}
