@@ -80,8 +80,7 @@ Link:focus,
 
 .menu-items h5 {
   margin: 0 3vw;
-  /* font-size: 22px; */
-  /* font-size: 0.95rem; */
+
   color: rgb(255, 255, 255);
 }
 .menu-items h5:hover {
@@ -194,7 +193,6 @@ Link:focus,
 
 /* Hero Home *********************HERO HOME*/
 .hero-image {
-  /* background-image: url("../public/images/hero-home/hero-bg/hero-2.jpg"); */
   background-image: url("../public/images/join/hero-2.jpg");
   height: 50%;
   background-position: center;
@@ -205,7 +203,7 @@ Link:focus,
 }
 .hero-all {
   display: flex;
-  /* margin: 40px; */
+
   flex-direction: column;
   justify-content: center;
   padding: 0px 0px 130px 0px;
@@ -218,12 +216,7 @@ Link:focus,
   justify-content: space-around;
   margin: 30px 2% 30px 0px;
 }
-/* .hero-left-right {
-  display: flex;
-  justify-content: space-between;
-  justify-content: space-around;
-  margin: 50px;
-} */
+
 /* 
 LEFT */
 .hero-left {
@@ -272,22 +265,6 @@ LEFT */
   width: 25px;
   height: 25px;
 }
-/* 
-.hero-left .hero-join {
-  width: 130px;
-  height: 30px;
-  text-align: center;
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2em;
-}
-.hero-left .hero-join .btn-arrow {
-  padding-left: 3px;
-  width: 25px;
-  height: 25px;
-} */
 
 /* RIGHT */
 .hero-right {
@@ -637,8 +614,6 @@ LEFT */
   padding-left: 5%;
   display: grid;
 
-  /* grid-template-rows: 378px 378px 378px;
-  grid-template-columns: 0px 663.6px 663px 663.6px 0px; */
   grid-template-rows: 378px 378px;
   grid-template-columns: 0fr 1fr 1fr 1fr 0.3fr;
 
@@ -729,14 +704,12 @@ LEFT */
   height: 260px;
   background-color: #252723;
   margin-top: -10%;
-  /* margin-bottom: 100px; */
+
   padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1550px) {
   .angry-grid {
-    /* grid-template-rows: 378px 378px 378px;
-  grid-template-columns: 0px 663.6px 663px 663.6px 0px; */
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 0fr 1fr 1fr 1fr 0.5fr;
   }
@@ -745,7 +718,7 @@ LEFT */
     height: 180px;
 
     margin-top: -10%;
-    /* margin-bottom: 100px; */
+
     padding-bottom: 90px;
   }
   .offer-top h1 {
@@ -781,7 +754,7 @@ LEFT */
     height: 100px;
 
     margin-top: -10%;
-    /* margin-bottom: 100px; */
+
     padding-bottom: 90px;
   }
 }
@@ -864,7 +837,7 @@ LEFT */
     height: 10px;
 
     margin-top: -10%;
-    /* margin-bottom: 100px; */
+
     padding-bottom: 90px;
   }
 }
@@ -971,7 +944,6 @@ LEFT */
 }
 
 .about-all {
-  /* padding-left: 5%; */
   display: flex;
   justify-content: center;
   margin: 0px 5px;
@@ -985,14 +957,12 @@ LEFT */
   margin-bottom: 0;
 }
 .about-left p {
-  /* font-size: 2.1em; */
   width: 90%;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-size: 1.5vw;
 }
 .about-right {
   width: 31%;
-  /* width: 728px; */
 }
 
 .about-right img {
@@ -1337,10 +1307,7 @@ LEFT */
   margin-bottom: 100px;
   overflow: hidden;
 }
-/* .slider-div {
-  display: flex;
-  align-items: end;
-} */
+
 .slider div {
   width: 3900px;
   height: 400;
@@ -1361,7 +1328,7 @@ LEFT */
   display: flex;
   flex-direction: column;
   width: 40%;
-  /* justify-content: end; */
+
   color: white;
   font-family: "Archivo Black", sans-serif;
 }
@@ -1492,13 +1459,6 @@ LEFT */
     font-size: 2.4vw;
   }
 
-  /* .slider-div .text-container {
-    padding-top: 100px;
-
-    width: 90%;
-  } */
-
-  /*  */
   .slider-div .text-container {
     padding-top: 160px;
   }
@@ -1622,7 +1582,6 @@ LEFT */
   font-size: 3em;
   margin-top: 0;
   margin-bottom: 0;
-  /* line-height: 1.2em; */
 }
 .team-left h3 {
   font-size: 2.5em;
@@ -1643,13 +1602,11 @@ LEFT */
 }
 .team-right div {
   display: flex;
-  /* width: 2100px; */
 }
 .team-right img {
   width: 50%;
   height: 50%;
   margin: 0px 40px;
-  /* Initial opacity for dimmed images */
 }
 
 .focused {
@@ -1715,8 +1672,6 @@ LEFT */
 
   .team-left h2 {
     font-size: 2em;
-
-    /* line-height: 1.2em; */
   }
   .team-left h3 {
     font-size: 1.3em;
@@ -1731,13 +1686,11 @@ LEFT */
   }
   .team-right div {
     display: flex;
-    /* width: 2100px; */
   }
   .team-right img {
     width: 60%;
     height: 60%;
     margin: 0px 20px;
-    /* Initial opacity for dimmed images */
   }
 
   .orange-split {
@@ -1754,8 +1707,6 @@ LEFT */
   .team-right img {
     width: 63%;
     height: 63%;
-
-    /* Initial opacity for dimmed images */
   }
   .team-left p {
     width: 90%;
@@ -1781,8 +1732,6 @@ LEFT */
 
   .team-left h2 {
     font-size: 1.9em;
-
-    /* line-height: 1.2em; */
   }
   .team-left h3 {
     font-size: 1.3em;
@@ -1800,13 +1749,11 @@ LEFT */
   }
   .team-right div {
     display: flex;
-    /* width: 2100px; */
   }
   .team-right img {
     width: 70%;
     height: 70%;
     margin: 0px 20px;
-    /* Initial opacity for dimmed images */
   }
 
   .orange-split {
@@ -1853,7 +1800,6 @@ LEFT */
 
   .team-right img {
     margin: 0px 15px;
-    /* Initial opacity for dimmed images */
   }
 
   .focused {
@@ -1890,7 +1836,6 @@ LEFT */
 
   .team-right img {
     margin: 0px 10px;
-    /* Initial opacity for dimmed images */
   }
 
   .orange-split {
@@ -1916,7 +1861,6 @@ LEFT */
 
   .team-right img {
     margin: 0px 10px;
-    /* Initial opacity for dimmed images */
   }
 
   .orange-split {
@@ -1948,12 +1892,10 @@ LEFT */
 }
 .faq {
   max-width: 70%;
-  /* display: flex; */
 }
 
 .faq-item {
   border-top: 1px solid #acc3cb;
-  /* border-bottom: 1px solid #ddd; */
 
   padding: 30px;
   cursor: pointer;
@@ -2048,14 +1990,13 @@ LEFT */
 /* JOIN SECTION ***************************JOIN-SECTION*/
 
 .join-image {
-  /* background-image: url("../public/images/join/join-1.jpg"); */
   background-image: url("../public/images/join/join-8.jpg");
   height: 50%;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* padding-bottom: 500px; */
+
   margin-top: auto;
 }
 .join-all {
@@ -2068,7 +2009,7 @@ LEFT */
 .join-text {
   display: flex;
   flex-direction: column;
-  /* padding-bottom: 300px; */
+
   padding: 0% 6%;
   width: 80%;
   margin-bottom: 40px;
@@ -2349,9 +2290,6 @@ LEFT */
   .footer-tabs .section h5 {
     font-size: 0.75em;
   }
-  /* .footer-tabs {
-    width: 60%;
-  } */
 }
 
 @media screen and (max-width: 540px) {
@@ -2366,9 +2304,7 @@ LEFT */
   .footer-tabs .section h5 {
     font-size: 0.6em;
   }
-  /* .footer-tabs {
-    width: 60%;
-  } */
+
   .footer-all {
     display: flex;
     justify-content: space-between;
@@ -2423,7 +2359,6 @@ LEFT */
 }
 .lesson-text h1 {
   font-size: 2.5vw;
-  /* font-size: 3em; */
 }
 .lesson-text p {
   font-size: 1.1vw;
@@ -2523,7 +2458,6 @@ LEFT */
   }
   .lesson-text h1 {
     font-size: 2.7vw;
-    /* font-size: 3em; */
   }
   .l-stat h2 {
     font-size: 2vw;
@@ -2548,7 +2482,6 @@ LEFT */
   }
   .lesson-text h1 {
     font-size: 2.7vw;
-    /* font-size: 3em; */
   }
   .l-stat h2 {
     font-size: 1.5vw;
@@ -2567,7 +2500,6 @@ LEFT */
 
   .lesson-text h1 {
     font-size: 4vw;
-    /* font-size: 3em; */
   }
   .lesson-text p {
     font-size: 3.5vw;
@@ -2621,14 +2553,13 @@ LEFT */
 }
 .benefits-bottom {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .benefits-left {
   display: flex;
   flex-direction: column;
   width: 50%;
-  /* justify-content: space-between; */
+
   margin-right: 1%;
 }
 .box {
@@ -2657,9 +2588,7 @@ LEFT */
   font-family: "IBM Plex Sans Condensed", sans-serif;
   margin-bottom: 0;
 }
-/* .benefits-left .box-2 {
-  width: 100%;
-} */
+
 .benefits-left .box-2 img {
   border: 3px solid white;
   width: 99%;
@@ -2701,7 +2630,7 @@ LEFT */
   }
   .benefits-left {
     width: 100%;
-    /* justify-content: space-between; */
+
     margin-right: 0%;
   }
   .benefits-all h1 {
@@ -2882,6 +2811,7 @@ LEFT */
   width: 40%;
   letter-spacing: 1.5px;
   color: #e1e1e1;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1250px) {
@@ -3059,6 +2989,7 @@ LEFT */
   width: 40%;
   letter-spacing: 1.5px;
   color: #e1e1e1;
+  font-weight: 700;
 }
 @media screen and (max-width: 1250px) {
   .video-hero-text h5 {
@@ -3201,9 +3132,9 @@ LEFT */
 /* BEYOND-BEGINNER *********************************/
 
 .beyond-hero {
-  background-image: url("../public/images/privateL/big/p-hero-img9.png");
+  background-image: url("../public/images/join/join-3.jpg");
   height: 50%;
-  background-position: center;
+  background-position: rop;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -3218,7 +3149,7 @@ LEFT */
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.5em;
-  color: #2b2d29;
+  color: #ffffff;
 }
 
 .beyond-hero-text h1 {
@@ -3226,7 +3157,7 @@ LEFT */
   margin-bottom: 0;
   font-size: 4.5em;
   line-height: 1em;
-  color: #000000;
+  color: #fcfcfc;
 }
 .beyond-hero-text .p {
   margin-bottom: 0;
@@ -3234,6 +3165,8 @@ LEFT */
   font-family: "IBM Plex Sans Condensed", sans-serif;
   width: 40%;
   letter-spacing: 1.5px;
+  color: #ffffff;
+  font-weight: 700;
 }
 @media screen and (max-width: 1250px) {
   .beyond-hero-text h5 {
@@ -3450,7 +3383,7 @@ LEFT */
   display: inline-block;
   line-height: 1;
   padding: 20px;
-  /* font-size: 100px; */
+
   margin-top: 50px;
 }
 
@@ -3593,7 +3526,6 @@ MODAL */
   z-index: 999;
 }
 
-/* MODAl */
 .modal {
   background-color: #000000;
   padding: 30px;
