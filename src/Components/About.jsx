@@ -1,26 +1,25 @@
 import React from "react";
+import { ABOUT_STUFF } from "../constants";
 
 const About = () => {
   return (
     <section id="about-section">
       <div className="about-all">
         <div className="about-left">
-          <h1>| ABOUT</h1>
+          <h1>{ABOUT_STUFF.title}</h1>
           <p>
-            Founded by <span>Allen Carter </span>and <span>Mike Ohara</span>{" "}
-            during their high school years, Skatefy has been uniting skateboard
-            enthusiasts for 8 years. What began as a shared passion for skating
-            has evolved into <span> a thriving community</span>.
+            {ABOUT_STUFF.spanOne} <span>{ABOUT_STUFF.spanTwo} </span>
+            {ABOUT_STUFF.spanThree}
+            <span>{ABOUT_STUFF.spanFour}</span> {ABOUT_STUFF.spanFive}
+            <span> {ABOUT_STUFF.spanSix}</span>.
           </p>
           <p>
-            We embrace skateboarders of all skill levels. Our mission: to
-            empower individuals through skateboarding, fostering confidence,
-            creativity, and connections within our{" "}
-            <span> vibrant skateboarding family</span>.
+            {ABOUT_STUFF.spanSeven}
+            <span>{ABOUT_STUFF.spanEight}</span>.
           </p>
         </div>
         <div className="about-right">
-          <img src="./images/about/about-image.png" alt="" />
+          <img src={ABOUT_STUFF.img} alt="" />
         </div>
       </div>
       <div className="about-strip">
@@ -28,22 +27,22 @@ const About = () => {
           <div className="strip-1 strip">
             <hr />
             <div className="strip-c">
-              <h1>10</h1>
-              <p>YEARS OF EXPERIENCE</p>
+              <h1>{ABOUT_STUFF.stat1}</h1>
+              <p>{ABOUT_STUFF.stat1P}</p>
             </div>
           </div>
           <div className="strip-2 strip">
             <hr />
             <div className="strip-c">
-              <h1>150+</h1>
-              <p>SATISTFIED STUDENTS</p>
+              <h1>{ABOUT_STUFF.stat2}</h1>
+              <p>{ABOUT_STUFF.stat2P}</p>
             </div>
           </div>
           <div className="strip-3 strip">
             <hr />
             <div className="strip-c">
-              <h1>5</h1>
-              <p>PROFESSIONAL COACHES</p>
+              <h1>{ABOUT_STUFF.stat3}</h1>
+              <p>{ABOUT_STUFF.stat3P}</p>
             </div>
           </div>
         </div>

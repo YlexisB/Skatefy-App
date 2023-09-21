@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { teamData } from "../data/teamData";
+import { OUR_TEAM_STUFF } from "../constants";
 
 const Ourteam = () => {
   const [teamMembers, setTeamMembers] = useState(teamData);
@@ -22,7 +23,7 @@ const Ourteam = () => {
     <section id="team-section">
       <div className="team-all">
         <div className="team-left">
-          <h1>| OUR TEAM</h1>
+          <h1>{OUR_TEAM_STUFF.title}</h1>
           <div>
             <h2>{teamMembers[0].name}</h2>
             <h3>

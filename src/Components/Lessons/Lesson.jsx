@@ -1,4 +1,5 @@
 import React from "react";
+import { LESSON_STUFF } from "../../constants";
 
 const Lesson = ({ lessonData }) => {
   return (
@@ -6,7 +7,7 @@ const Lesson = ({ lessonData }) => {
       <div className="about-lessons-all">
         <div className="lesson-left">
           <div className="lesson-text">
-            <h1>| ABOUT LESSONS</h1>
+            <h1>{LESSON_STUFF.title}</h1>
             <p>{lessonData.para1}</p>
           </div>
           <div className="lesson-stats">
@@ -14,21 +15,21 @@ const Lesson = ({ lessonData }) => {
               <hr />
               <div className="l-stat time">
                 <h2>{lessonData.duration}</h2>
-                <p>LESSON DURATION</p>
+                <p>{LESSON_STUFF.duration}</p>
               </div>
             </div>
             <div className="stat">
               <hr />
               <div className="l-stat skill">
                 <h2>{lessonData.skillLevel}</h2>
-                <p>SKILL LEVEL</p>
+                <p>{LESSON_STUFF.skill}</p>
               </div>
             </div>
             <div className="stat">
               <hr />
               <div className="l-stat age">
                 <h2>{lessonData.ageRange}</h2>
-                <p>AGE RANGE</p>
+                <p>{LESSON_STUFF.age}</p>
               </div>
             </div>
           </div>
@@ -43,7 +44,7 @@ const Lesson = ({ lessonData }) => {
             <img src={lessonData.gif} alt="" />
           </div>
           <div className="lesson-who-text">
-            <h3> WHO IS IT FOR?</h3>
+            <h3>{LESSON_STUFF.who}</h3>
             <p>{lessonData.para2}</p>
           </div>
         </div>

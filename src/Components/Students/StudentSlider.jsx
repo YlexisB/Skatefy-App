@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { BiSolidQuoteLeft } from "react-icons/bi";
+import { STUDENT_STUFF } from "../../constants";
 
 export default class PauseOnHover extends Component {
   render() {
@@ -21,17 +22,17 @@ export default class PauseOnHover extends Component {
               <h1>
                 <span>
                   <BiSolidQuoteLeft />
-                </span>{" "}
-                GEO TAYLOR{" "}
+                </span>
+                {STUDENT_STUFF.geo}
               </h1>
               <p>
                 {" "}
-                Skatefy has been a <span>game-changer </span>for me. The
-                instructors' dedication and patience have taken my skills to a
-                whole new level.
+                {STUDENT_STUFF.geoSpan1}
+                <span>{STUDENT_STUFF.geoSpan2} </span>
+                {STUDENT_STUFF.geoSpan3}
               </p>
             </div>{" "}
-            <img src="./images/ourstudents/gif-1.gif" alt="" />
+            <img src={STUDENT_STUFF.geoGif} alt="" />
           </div>
           <div className="slider-div">
             <div className="text-container">
@@ -40,16 +41,15 @@ export default class PauseOnHover extends Component {
                 <span>
                   <BiSolidQuoteLeft />
                 </span>{" "}
-                WILL & RICHARD
+                {STUDENT_STUFF.wR}
               </h1>
 
               <p>
-                {" "}
-                Skatefy not only <span>improved our skating</span> but also
-                brought us together as best friends. We're forever grateful."
+                {STUDENT_STUFF.wRSpan1} <span>{STUDENT_STUFF.wRSpan2}</span>{" "}
+                {STUDENT_STUFF.wRSpan3}
               </p>
             </div>{" "}
-            <img src="./images/ourstudents/gif-2.gif" alt="" />
+            <img src={STUDENT_STUFF.wRGif} alt="" />
           </div>
           <div className="slider-div">
             <div className="text-container">
@@ -58,16 +58,16 @@ export default class PauseOnHover extends Component {
                 <span>
                   <BiSolidQuoteLeft />
                 </span>{" "}
-                ANGIE MILLER
+                {STUDENT_STUFF.angie}
               </h1>
               <p>
                 {" "}
-                I'm only 9, but Skatefy makes me{" "}
-                <span> feel like a skateboarding pro. </span> It's so much fun,
-                and the coaches are awesome!
+                {STUDENT_STUFF.angieSpan1}
+                <span> {STUDENT_STUFF.angieSpan2} </span>
+                {STUDENT_STUFF.angieSpan3}
               </p>
             </div>{" "}
-            <img src="./images/ourstudents/gif-3.gif" alt="" />
+            <img src={STUDENT_STUFF.angieGif} alt="" />
           </div>
           <div className="slider-div">
             <div className="text-container">
@@ -76,15 +76,15 @@ export default class PauseOnHover extends Component {
                 <span>
                   <BiSolidQuoteLeft />
                 </span>{" "}
-                SARAH DAZANO
+                {STUDENT_STUFF.sarah}
               </h1>
               <p>
                 {" "}
-                I've always wanted to master kickflips, and
-                <span> Skatefy helped me achieve it. </span>.
+                {STUDENT_STUFF.sarahSpan1}
+                <span>{STUDENT_STUFF.sarahSpan2}</span>.
               </p>
             </div>{" "}
-            <img src="./images/ourstudents/gif-4.gif" alt="" />
+            <img src={STUDENT_STUFF.sarahGif} alt="" />
           </div>
           <div className="slider-div">
             <div className="text-container">
@@ -93,15 +93,16 @@ export default class PauseOnHover extends Component {
                 <span>
                   <BiSolidQuoteLeft />
                 </span>{" "}
-                ERICK WILSON
+                {STUDENT_STUFF.erick}
               </h1>
               <p>
                 {" "}
-                Skatefy is my <span>skateboarding sanctuary. </span>
-                The community, coaching, and competitions are awesome.
+                {STUDENT_STUFF.erickSpan1}
+                <span>{STUDENT_STUFF.erickSpan2} </span>
+                {STUDENT_STUFF.erickSpan3}
               </p>
             </div>{" "}
-            <img src="./images/ourstudents/gif-5.gif" alt="" />
+            <img src={STUDENT_STUFF.erickGif} alt="" />
           </div>
         </Slider>
       </div>

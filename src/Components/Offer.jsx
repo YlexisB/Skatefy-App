@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { OFFER_STUFF } from "../constants";
 
 const Offer = () => {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ const Offer = () => {
     <section id="offer-section">
       <div className="offer">
         <div className="offer-top">
-          <h1>| OFFER</h1>
+          <h1>{OFFER_STUFF.title}</h1>
         </div>
         <div className="img-grid">
           <div className="angry-grid">
@@ -25,21 +26,13 @@ const Offer = () => {
             >
               <div className="text-container">
                 <h1>
-                  PRIVATE LESSONS{" "}
+                  {OFFER_STUFF.lesson1}
                   <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </h1>
-                <p>
-                  {" "}
-                  Skate your way with flexible Private Lessons, tailored for
-                  both small groups and one-on-one training
-                </p>
+                <p>{OFFER_STUFF.lesson1P}</p>
               </div>
 
-              <img
-                src="./images/offer/o-image-1.png"
-                style={{ display: "block", width: "100%", height: "100%" }}
-                alt=""
-              />
+              <img src={OFFER_STUFF.lesson1img} alt="" />
             </div>
 
             <div
@@ -49,16 +42,12 @@ const Offer = () => {
             >
               <div className="text-container">
                 <h1>
-                  VIDEO COACHING{" "}
+                  {OFFER_STUFF.lesson2}
                   <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </h1>
-                <p>
-                  {" "}
-                  Get expert guidance and insight with our Video Coaching. Watch
-                  your skills soar with our tailored feedback.
-                </p>
+                <p>{OFFER_STUFF.lesson2P}</p>
               </div>{" "}
-              <img src="./images/offer/o-image-2.png" alt="" />
+              <img src={OFFER_STUFF.lesson2img} alt="" />
             </div>
             <div
               id="item-2"
@@ -67,16 +56,12 @@ const Offer = () => {
             >
               <div className="text-container">
                 <h1>
-                  COMPETITIONS{" "}
+                  {OFFER_STUFF.lesson3}
                   <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </h1>
-                <p>
-                  {" "}
-                  Test your skateboarding prowess and connect with the community
-                  in Skatefy's thrilling skateboarding competitions.
-                </p>
+                <p>{OFFER_STUFF.lesson3P}</p>
               </div>{" "}
-              <img src="./images/offer/big-img-3.png" alt="" />
+              <img src={OFFER_STUFF.lesson3img} alt="" />
             </div>
             <div
               id="item-3"
@@ -85,27 +70,16 @@ const Offer = () => {
             >
               <div className="text-container">
                 <h1>
-                  BEYOND BEGINNER{" "}
+                  {OFFER_STUFF.lesson4}
                   <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </h1>
-                <p>
-                  {" "}
-                  Ready to go beyond the basics? Our Beyond Beginner Lessons
-                  unlock the world of advanced tricks and techniques.
-                </p>
+                <p>{OFFER_STUFF.lesson4P}</p>
               </div>{" "}
-              <img src="./images/offer/o-image-13.png" alt="" />
+              <img src={OFFER_STUFF.lesson4img} alt="" />
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="angry-grid">
-          <img id="item-0" src="./images/offer/img-1.png" alt="" />{" "}
-          <img id="item-1" src="./images/offer/img-2.png" alt="" />{" "}
-          <img id="item-2" src="./images/offer/img-3.png" alt="" />{" "}
-          <img id="item-3" src="./images/offer/img-6.png" alt="" />
-        </div>
-      </div> */}
 
       <div className="background-split"></div>
     </section>

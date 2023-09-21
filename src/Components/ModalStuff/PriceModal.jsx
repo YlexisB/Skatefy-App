@@ -1,5 +1,5 @@
 import React from "react";
-// import { MODAL_STUFF } from "../../constants";
+import { PRICE_MODAL } from "../../constants";
 
 const PriceModal = ({ isOpen, onClose, selectedPrice, selectedPlan }) => {
   if (!isOpen) return null;
@@ -13,13 +13,12 @@ const PriceModal = ({ isOpen, onClose, selectedPrice, selectedPlan }) => {
             <button className="modal-close-button" onClick={onClose}>
               x
             </button>
-            <h2>Your Skatefy Plan</h2>
+            <h2>{PRICE_MODAL.title}</h2>
+            <p> {PRICE_MODAL.titleP}</p>
             <p>
-              {" "}
-              Complete your sign-up to confirm your Skatefy plan. A team member
-              will contact you to guide you through the next steps.
+              {PRICE_MODAL.titlePSpan1}
+              {selectedPrice} {PRICE_MODAL.titlePSpan2}
             </p>
-            <p>You've selected the {selectedPrice} package</p>
 
             <input
               type="text"
@@ -48,7 +47,7 @@ const PriceModal = ({ isOpen, onClose, selectedPrice, selectedPlan }) => {
               placeholder="Type your message"
             ></textarea>
             <button className="modal-submit" type="submit">
-              submit
+              {PRICE_MODAL.cta}
             </button>
           </form>
         </div>

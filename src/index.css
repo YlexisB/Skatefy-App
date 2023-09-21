@@ -85,7 +85,7 @@ Link:focus,
   color: rgb(255, 255, 255);
 }
 .menu-items h5:hover {
-  color: white;
+  color: #ef6c39;
 }
 .menu-dropdown h3 {
   display: flex;
@@ -2309,14 +2309,16 @@ LEFT */
 .footer-tabs {
   display: flex;
   justify-content: space-between;
-
+  cursor: pointer;
   width: 35%;
   color: white;
 }
 .footer-tabs .section p {
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
-
+.footer-tabs .section p:hover {
+  color: #ef6c39;
+}
 @media screen and (max-width: 1150px) {
   .footer-tabs {
     width: 50%;

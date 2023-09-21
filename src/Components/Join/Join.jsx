@@ -1,5 +1,6 @@
 import React from "react";
 import JoinButton from "./JoinButton";
+import { JOIN_STUFF } from "../../constants";
 
 const Join = () => {
   return (
@@ -7,14 +8,11 @@ const Join = () => {
       <div className="join-all">
         <div className="join-text">
           <h1>
-            Join us on an exhilarating ride, master tricks, and craft{" "}
-            <span> unforgettable skateboarding </span>
-            moments together.
+            {JOIN_STUFF.joinSPan1}
+            <span>{JOIN_STUFF.joinSPan2}</span>
+            {JOIN_STUFF.joinSpan3}
           </h1>
-          {/* <div className="join-button hero-join">
-          {NAV_STUFF.join}
-          <MdKeyboardDoubleArrowRight className="btn-arrow" />
-        </div> */}
+
           <JoinButton />
         </div>
       </div>

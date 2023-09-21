@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Timer from "./Timer";
 import CompetitionModal from "./ModalStuff/CompetitionModal";
+import { COMPETITION_STUFF } from "../constants";
 
 const CompetitionHero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,9 +22,9 @@ const CompetitionHero = () => {
         <h4>
           sk<span>a</span>tefy
         </h4>
-        <h1>SKATEJAM</h1>
-        <h3> LIVE IN EAST RUTHERFORD | APRIL 23-24,2024</h3>
-        <button onClick={openModal}> REGISTER FOR COMPETITION</button>
+        <h1>{COMPETITION_STUFF.title}</h1>
+        <h3>{COMPETITION_STUFF.titleP}</h3>
+        <button onClick={openModal}>{COMPETITION_STUFF.cta}</button>
         {isModalOpen && (
           <CompetitionModal isOpen={isModalOpen} onClose={closeModal} />
         )}

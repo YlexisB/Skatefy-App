@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
+import { FOOTER_STUFF } from "../constants";
+
 const Footer = () => {
   const navigate = useNavigate();
   const handleGridItemClick = (pagePath) => {
@@ -30,39 +32,39 @@ const Footer = () => {
         </h1>
         <div className="footer-tabs">
           <div className="section">
-            <h5>OFFER</h5>
+            <h5>{FOOTER_STUFF.offer}</h5>
             <p onClick={() => handleGridItemClick("/PrivateLessons")}>
-              Private Skate Lessons
+              {FOOTER_STUFF.private}
             </p>
             <p onClick={() => handleGridItemClick("/VideoCoaching")}>
-              Video Coaching
+              {FOOTER_STUFF.videoC}
             </p>
             <p onClick={() => handleGridItemClick("/BeyondBeginner")}>
-              Beyond Beginner
+              {FOOTER_STUFF.beyondBegin}
             </p>
             <p onClick={() => handleGridItemClick("/Competition")}>
-              Competitions
+              {FOOTER_STUFF.competition}
             </p>
           </div>
           <div className="section">
-            <h5>COMPANY</h5>
+            <h5>{FOOTER_STUFF.company}</h5>
             <Link to="/#about-section">
-              <p>About</p>
+              <p>{FOOTER_STUFF.about}</p>
             </Link>
             <Link to="/#our-students-section">
-              <p>Students</p>
+              <p>{FOOTER_STUFF.students}</p>
             </Link>
             <Link to="/#team-section">
-              <p>Instructors</p>
+              <p>{FOOTER_STUFF.instructors}</p>
             </Link>
             <Link to="/#faq-section">
-              <p>FAQ</p>
+              <p>{FOOTER_STUFF.faq}</p>
             </Link>
           </div>
           <div className="section">
-            <h5>SUPPORT</h5>
+            <h5>{FOOTER_STUFF.support}</h5>
             <Link to="/#contact-section">
-              <p>Contact Us</p>
+              <p>{FOOTER_STUFF.contact}</p>
             </Link>
           </div>
         </div>

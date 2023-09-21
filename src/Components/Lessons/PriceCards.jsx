@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import PriceModal from "../ModalStuff/PriceModal";
+import { PRICE_CARDS_STUFF } from "../../constants";
 
 const PriceCards = ({ lessonPrice }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,20 +19,21 @@ const PriceCards = ({ lessonPrice }) => {
   return (
     <div id="price-section">
       <div className="price-all">
-        <h1>| PRICE</h1>
+        <h1>{PRICE_CARDS_STUFF.title}</h1>
         <div className="price-cards">
           <div className="columns">
             <ul class="price">
-              <li className="header">ONE TIME LESSON</li>
+              <li className="header">{PRICE_CARDS_STUFF.one}</li>
               <li className="grey">{lessonPrice.singlePrice}</li>
-              <li>1 Lesson</li>
+              <li>{PRICE_CARDS_STUFF.oneLesson}</li>
 
               <li className="grey">
                 <a
                   className="button"
                   onClick={() => openModal(lessonPrice.singlePrice)}
                 >
-                  CHOOSE <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                  {PRICE_CARDS_STUFF.choose}{" "}
+                  <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </a>
               </li>
               {isModalOpen && (
@@ -45,7 +47,7 @@ const PriceCards = ({ lessonPrice }) => {
           </div>
           <div className="columns">
             <ul class="price">
-              <li className="header">BASIC</li>
+              <li className="header">{PRICE_CARDS_STUFF.basic}</li>
               <li className="grey">{lessonPrice.basicPrice}</li>
               <li>{lessonPrice.basicLessons}</li>
 
@@ -54,7 +56,8 @@ const PriceCards = ({ lessonPrice }) => {
                   className="button"
                   onClick={() => openModal(lessonPrice.basicPrice)}
                 >
-                  CHOOSE <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                  {PRICE_CARDS_STUFF.choose}{" "}
+                  <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </a>
               </li>
               {isModalOpen && (
@@ -68,7 +71,7 @@ const PriceCards = ({ lessonPrice }) => {
           </div>
           <div className="columns">
             <ul class="price">
-              <li className="header">GOLD PACKAGE</li>
+              <li className="header">{PRICE_CARDS_STUFF.goldPackage}</li>
               <li className="grey">{lessonPrice.goldPackagePrice}</li>
               <li>{lessonPrice.goldPackageLessons}</li>
 
@@ -77,7 +80,8 @@ const PriceCards = ({ lessonPrice }) => {
                   className="button"
                   onClick={() => openModal(lessonPrice.goldPackagePrice)}
                 >
-                  CHOOSE <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                  {PRICE_CARDS_STUFF.choose}{" "}
+                  <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </a>
               </li>
               {isModalOpen && (
@@ -91,7 +95,7 @@ const PriceCards = ({ lessonPrice }) => {
           </div>
           <div className="columns">
             <ul class="price">
-              <li className="header">PREMIUM</li>
+              <li className="header">{PRICE_CARDS_STUFF.premium}</li>
               <li className="grey">{lessonPrice.premiumPrice}</li>
               <li>{lessonPrice.premiumLessons}</li>
 
@@ -100,7 +104,8 @@ const PriceCards = ({ lessonPrice }) => {
                   className="button"
                   onClick={() => openModal(lessonPrice.premiumPrice)}
                 >
-                  CHOOSE <MdKeyboardDoubleArrowRight className="btn-arrow" />
+                  {PRICE_CARDS_STUFF.choose}{" "}
+                  <MdKeyboardDoubleArrowRight className="btn-arrow" />
                 </a>
               </li>
               {isModalOpen && (

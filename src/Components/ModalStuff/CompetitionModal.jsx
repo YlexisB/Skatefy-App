@@ -1,4 +1,5 @@
 import React from "react";
+import { COMPETITION_MODAL } from "../../constants";
 
 const CompetitionModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -10,11 +11,8 @@ const CompetitionModal = ({ isOpen, onClose }) => {
           <button className="modal-close-button" onClick={onClose}>
             x
           </button>
-          <h2 className="graffiti">Skate Jam Registration</h2>
-          <p>
-            Don't miss your chance to showcase your skills and be part of the
-            excitement. Secure your spot today!
-          </p>
+          <h2 className="graffiti">{COMPETITION_MODAL.title}</h2>
+          <p>{COMPETITION_MODAL.titleP}</p>
 
           <input
             type="text"
@@ -43,7 +41,7 @@ const CompetitionModal = ({ isOpen, onClose }) => {
             placeholder="Type your message"
           ></textarea>
           <button className="modal-submit" type="submit">
-            Register
+            {COMPETITION_MODAL.cta}
           </button>
         </form>
       </div>

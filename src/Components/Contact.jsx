@@ -1,24 +1,25 @@
 import React from "react";
+import { CONTACT_STUFF } from "../constants";
 
 const Contact = () => {
   return (
     <div id="contact-section">
       <div className="contact-all">
-        <h1>| CONTACT</h1>
+        <h1>{CONTACT_STUFF.title}</h1>
         <div className="contact-stuff">
           <div className="contact-pairs">
-            <h3 className="pair-2"> Tel: </h3>
-            <h3> +01 234 5678</h3>
+            <h3 className="pair-2"> {CONTACT_STUFF.phone}</h3>
+            <h3>{CONTACT_STUFF.phoneNumber}</h3>
           </div>
           <hr />
           <div className="contact-pairs">
-            <h3 className="pair-2"> Email: </h3>
-            <h3> info@skatefy.com</h3>
+            <h3 className="pair-2">{CONTACT_STUFF.email}</h3>
+            <h3> {CONTACT_STUFF.emailAddress}</h3>
           </div>
           <hr />
           <div className="contact-pairs">
-            <h3 className="pair-2"> Location: </h3>
-            <h3> 73 Jagerd Skate Park, East York, NY 11731</h3>
+            <h3 className="pair-2">{CONTACT_STUFF.location}</h3>
+            <h3> {CONTACT_STUFF.address}</h3>
           </div>
         </div>
       </div>

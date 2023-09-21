@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { TIMER_STUFF } from "../constants";
 
 const Timer = () => {
   const [days, setDays] = useState("00");
@@ -45,19 +46,19 @@ const Timer = () => {
     <div id="timer">
       <div id="days">
         {days}
-        <span>Days</span>
+        <span>{TIMER_STUFF.days}</span>
       </div>
       <div id="hours">
         {hours}
-        <span>Hours</span>
+        <span>{TIMER_STUFF.hours}</span>
       </div>
       <div id="minutes">
         {minutes}
-        <span>Minutes</span>
+        <span>{TIMER_STUFF.minutes}</span>
       </div>
       <div id="seconds">
         {seconds}
-        <span>Seconds</span>
+        <span>{TIMER_STUFF.seconds}</span>
       </div>
     </div>
   );

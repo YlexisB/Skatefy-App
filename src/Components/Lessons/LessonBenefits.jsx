@@ -1,9 +1,14 @@
 import React from "react";
+import { BENEFITS_STUFF } from "../../constants";
+
 const LessonBenefits = ({ lessonData2 }) => {
   return (
     <div id="benefits">
       <div className="benefits-all">
-        <h1>| BENEFITS OF {lessonData2.title}</h1>
+        <h1>
+          {BENEFITS_STUFF.title}
+          {lessonData2.title}
+        </h1>
         <div className="benefits-bottom">
           <div className="benefits-left">
             <div className="box box-1">

@@ -1,22 +1,19 @@
 import React from "react";
 import Navbar from "./Navbar";
 import JoinButton from "./Join/JoinButton";
+import { VIDEO_STUFF } from "../constants";
 
 const VideoCoachHero = () => {
   return (
     <div className="video-hero">
       <Navbar />
       <div className="video-hero-text">
-        <h5>FROM $20</h5>
+        <h5>{VIDEO_STUFF.price}</h5>
         <h1>
-          <span>VIDEO COACHING </span>
+          <span>{VIDEO_STUFF.titleSpan} </span>
         </h1>
-        <h1> LESSONS</h1>
-        <p className="p">
-          Unleash your skateboarding potential with our Video Coaching sessions
-          at Skatefy, where personalized guidance meets the power of video
-          analysis.
-        </p>
+        <h1>{VIDEO_STUFF.title}</h1>
+        <p className="p">{VIDEO_STUFF.titleP}</p>
         <JoinButton />
       </div>
     </div>
