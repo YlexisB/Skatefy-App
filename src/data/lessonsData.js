@@ -41,7 +41,7 @@ export const beyondBeginner = {
   skillLevel: "MID-LEVEL+",
   ageRange: "5+",
   image1: "./images/beyondBegin/b-img-1.png",
-  image2: "/images/beyondBegin/b-img-2.png",
-  image3: "/images/beyondBegin/b-img-3.png",
-  gif: "./images/lesson-gifs/gif-3.GIF",
+  image2: "./images/beyondBegin/b-img-2.png",
+  image3: "./images/beyondBegin/b-img-3.png",
+  gif: "./images/lesson-gifs/gif-3.gif",
 };

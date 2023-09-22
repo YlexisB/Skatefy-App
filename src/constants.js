@@ -41,7 +41,7 @@ export const PRICE_MODAL = {
   title: "Your Skatefy Plan",
   titleP:
     "  Complete your sign-up to confirm your Skatefy plan. A team member will contact you to guide you through the next steps.",
-  titlePSpan1: "You've selected the",
+  titlePSpan1: "You've selected the ",
   titlePSpan2: " package",
   cta: "Sign Up",
 };
