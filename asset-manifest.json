@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Skatefy-App/static/css/main.b1c599db.css",
-    "main.js": "/Skatefy-App/static/js/main.77a2713c.js",
+    "main.js": "/Skatefy-App/static/js/main.737d1c21.js",
     "static/js/787.28cb0dcd.chunk.js": "/Skatefy-App/static/js/787.28cb0dcd.chunk.js",
     "static/media/c-hero-gif.gif": "/Skatefy-App/static/media/c-hero-gif.0c1684ca36435e96705b.gif",
     "static/media/hero-2.jpg": "/Skatefy-App/static/media/hero-2.89b827cf03b045bb5b6e.jpg",
@@ -11,11 +11,11 @@
     "static/media/p-hero-img3.png": "/Skatefy-App/static/media/p-hero-img3.468727e16cd50891db30.png",
     "index.html": "/Skatefy-App/index.html",
     "main.b1c599db.css.map": "/Skatefy-App/static/css/main.b1c599db.css.map",
-    "main.77a2713c.js.map": "/Skatefy-App/static/js/main.77a2713c.js.map",
+    "main.737d1c21.js.map": "/Skatefy-App/static/js/main.737d1c21.js.map",
     "787.28cb0dcd.chunk.js.map": "/Skatefy-App/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1c599db.css",
-    "static/js/main.77a2713c.js"
+    "static/js/main.737d1c21.js"
   ]
 }
