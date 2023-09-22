@@ -1,6 +1,5 @@
 import React from "react";
 import { ABOUT_STUFF } from "../constants";
-
 const About = () => {
   return (
     <section id="about-section">
